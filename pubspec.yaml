@@ -1,0 +1,26 @@
+
+
+
+name: assigment_two
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"  # Updated to require at least 2.17.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0  # Use the latest stable version
+
+dev_dependencies:
+  flutter_lints: ^4.0.0  # Downgraded to 4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - image/
